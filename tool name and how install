@@ -1,12 +1,14 @@
-Hello Friends 
+Hello Friends
 ZPHISHER install in kali Linux
 Spet 1
 Open Terminal In your Kali Machine
 step 2
-  type 
+  type
 sudo su   press Enter
 Enter password    Press enter
 step 3
   type
 git clone https://github.com/htr-tech/zphisher.git    Press Enter and wait this process take some time
 __- Congratulation ZPHISHER successfully installed -__
+
+How to acess ZPHISHER
