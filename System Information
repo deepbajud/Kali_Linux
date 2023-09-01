@@ -1,0 +1,28 @@
+System Information:
+
+uname -a: Display system information.
+cat /etc/os-release: Display distribution-specific information.
+df -h: Show disk space usage.
+free -h: Display memory usage.
+
+
+----------------------SHORT------------------------------
+uname -a displays detailed system information, including the kernel version and hardware architecture.
+cat /etc/os-release shows distribution-specific data about the operating system.
+df -h reveals disk space usage on mounted partitions in a human-readable format.
+free -h presents memory usage statistics, including total, used, and free memory.
+
+---------------------DETAIL-----------------------------
+uname -a: This command displays detailed system information, including the kernel version, operating system, and architecture. It provides a summary of the system's hardware and software configuration.
+
+cat /etc/os-release: Running this command will display distribution-specific information about the operating system. It typically includes details such as the OS name, version, and ID, which can be useful for identifying the specific Linux distribution in use.
+
+df -h: The df command is used to show disk space usage on mounted file systems. The -h option formats the output in a human-readable way, displaying sizes in gigabytes, megabytes, etc. It lists information about available disk space on all mounted partitions.
+
+free -h: This command displays memory usage statistics. The -h option, again, formats the output in a human-readable format, showing memory sizes in gigabytes, megabytes, etc. It provides information about the total, used, and free memory, as well as swap space usage.
+
+These commands are handy for system administrators and users who want to quickly check the status of their system's resources and configuration.
+
+
+
+
