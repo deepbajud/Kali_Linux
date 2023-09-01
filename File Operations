@@ -1,0 +1,33 @@
+Navigation:
+pwd: Print the current working directory.
+ls: List files and directories in the current directory.
+cd: Change directory.
+cd ..: Move up one directory.
+cd /: Change to the root directory.
+
+----------------------SHORT------------------------------
+pwd (Print Working Directory): Displays the full path of the directory you are currently located in.
+
+ls (List): Provides a list of files and directories within the current directory.
+
+cd (Change Directory): Lets you switch to a different directory.
+
+cd .. (Move Up): Takes you up one level in the directory structure.
+
+cd / (Root Directory): Brings you to the top-level directory of the file system.
+
+---------------------DETAIL-----------------------------
+pwd (Print Working Directory):
+This command displays the full path of the current directory you are working in. It's useful for knowing your current location within the file system.
+
+ls (List):
+The "ls" command is used to list the files and directories in the current directory. It provides information such as filenames, permissions, sizes, and timestamps, helping you to see what's in the current folder.
+
+cd (Change Directory):
+"cd" allows you to change your current working directory to another location. You can use "cd" followed by the directory's name to move into that directory. For example, "cd Documents" will take you into the "Documents" directory.
+
+cd .. (Move Up One Directory):
+This command lets you move up one level in the directory hierarchy. It's handy for quickly navigating back to the parent directory of your current location.
+
+cd / (Change to the Root Directory):
+Typing "cd /" takes you to the root directory, which is the top-level directory in the file system hierarchy. This is the starting point for the entire directory structure.
