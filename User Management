@@ -1,0 +1,29 @@
+User Management:
+
+whoami: Display the current user.
+sudo command: Execute a command with superuser privileges.
+adduser username: Create a new user.
+usermod -aG groupname username: Add a user to a group.
+
+----------------------SHORT------------------------------
+sudo command: Allows users to execute commands with superuser privileges, often requiring authentication. This command is used to perform administrative tasks.
+
+adduser username: Creates a new user account on the system with the specified username. It prompts for additional user information.
+
+usermod -aG groupname username: Adds an existing user to a specific group, granting them access to group resources and permissions.
+
+---------------------DETAIL-----------------------------
+
+whoami: This command is used to display the current username of the logged-in user. It's a simple way to identify the user running the current session.
+
+sudo command: The sudo command is used to execute a command with superuser or administrative privileges. It allows authorized users to perform tasks that require elevated permissions. When using sudo, you'll be prompted to enter your password to confirm your identity.
+
+adduser username: This command is used to create a new user on a Linux system. You provide a username as an argument, and the system will prompt you to set a password and provide additional user information like name, phone number, and more. Once created, the new user can log in and interact with the system.
+
+usermod -aG groupname username: With this command, you can add an existing user to one or more user groups. The -aG flag specifies that you want to append the user to the group (if they're not already a member), and groupname is the name of the group to which you want to add the user. This command is useful for managing permissions and access control for various resources on the system.
+
+These user management commands are fundamental for setting up and maintaining user accounts, privileges, and access control on a Linux system. They help ensure proper user authentication and authorization.
+
+
+
+
