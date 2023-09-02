@@ -1,0 +1,36 @@
+Networking:
+
+ifconfig: Show network interfaces (Note: Deprecated, use ip command instead).
+ip addr show: Display IP addresses and network information.
+ping hostname/IP: Send ICMP echo requests to test network connectivity.
+netstat -tuln: Display open ports and active network connections.
+nmap target: Perform network scanning.
+----------------------SHORT------------------------------
+ifconfig (Deprecated, use ip addr show instead): Displays information about network interfaces, such as their IP addresses, netmasks, and status.
+
+ip addr show: Provides detailed information about network interfaces, including their IP addresses, network masks, and other configuration details.
+
+ping hostname/IP: Sends ICMP echo requests to a specified hostname or IP address to test network connectivity and measure round-trip time.
+
+netstat -tuln: Displays a list of open ports and active network connections on your system, helping you monitor network activity.
+
+nmap target: Performs network scanning on a specified target, revealing open ports, services, and potential vulnerabilities on remote hosts.
+
+---------------------DETAIL-----------------------------
+
+ifconfig (Deprecated): This command displays network interfaces and their configurations. However, it is now considered deprecated, and the recommended command to use is ip addr show for similar functionality.
+
+ip addr show: This command displays detailed information about network interfaces, including IP addresses and their configurations. It has largely replaced ifconfig in modern Linux distributions.
+
+ping hostname/IP: The ping command sends ICMP echo requests to a specified hostname or IP address. It is commonly used to test network connectivity and check if a host is reachable.
+
+netstat -tuln: This command displays information about open ports and active network connections. It can be useful for monitoring network activity on a system.
+
+nmap target: Nmap is a powerful network scanning tool used to discover open ports, services running on a host, and other network-related information. It's often used for security and network analysis purposes.
+
+These commands are valuable for network troubleshooting, monitoring, and security assessment. Be sure to use them responsibly and within legal and ethical boundaries, especially when performing network scans on systems you don't own or have permission to scan.
+
+
+
+
+
