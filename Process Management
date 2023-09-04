@@ -1,0 +1,82 @@
+Process Management:
+
+ps aux: Display a list of running processes.
+kill processID: Terminate a process.
+top: Monitor system processes in real-time.
+htop: Interactive process viewer.
+
+
+----------------------SHORT------------------------------
+
+ps aux: Displays a detailed list of all running processes on the system, including their PIDs, resource usage, and owners.
+
+kill processID: Terminates a specific process by sending a termination signal to its process ID (PID).
+
+top: Provides real-time monitoring of system processes and resource usage, offering a dynamic view of CPU, memory, and process statistics.
+
+htop: An interactive and enhanced alternative to the "top" command, offering a user-friendly interface to monitor and manage processes with ease.
+---------------------DETAIL-----------------------------
+
+ps aux:
+
+Description: The ps command is used to display information about currently running processes. The aux options are commonly used to provide a detailed list of all processes on the system.
+
+Usage:
+
+Copy code
+ps aux
+Example:
+
+ruby
+Copy code
+$ ps aux
+Explanation: Running ps aux will display a comprehensive list of all processes running on the system, including the process ID (PID), CPU and memory usage, owner, and other details. It's a valuable tool for monitoring and troubleshooting processes.
+
+kill processID:
+
+Description: The kill command is used to terminate a running process based on its process ID (PID).
+
+Usage:
+
+bash
+Copy code
+kill processID
+Example:
+
+shell
+Copy code
+$ kill 1234
+Explanation: When you run kill followed by a PID, it sends a termination signal to the specified process, requesting it to stop gracefully. You can also use different signal options with kill to control how the process is terminated.
+
+top:
+
+Description: The top command is a dynamic and real-time system monitoring utility that displays a continuously updated list of processes, their resource usage, and system statistics.
+
+Usage:
+
+css
+Copy code
+top
+Example:
+
+css
+Copy code
+$ top
+Explanation: top provides an interactive interface where you can see CPU usage, memory usage, load averages, and more. It's valuable for identifying resource-intensive processes and monitoring system performance in real-time.
+
+htop:
+
+Description: htop is an interactive process viewer similar to top but offers enhanced features and a more user-friendly interface.
+
+Usage:
+
+Copy code
+htop
+Example:
+
+ruby
+Copy code
+$ htop
+Explanation: htop provides an intuitive and color-coded interface that allows you to navigate through processes, sort them, and send signals to them easily. It also offers features like scrolling, searching, and tree-view representation of process relationships.
+
+These process management commands are essential tools for system administrators and users to monitor and control processes running on a Unix-like operating system. They help in troubleshooting, identifying resource bottlenecks, and maintaining system stability by managing running applications and services effectively.
