@@ -1,0 +1,81 @@
+File Manipulation:
+
+grep pattern filename: Search for a pattern in a file.
+cat filename: Display the contents of a file.
+head filename: Display the beginning of a file.
+tail filename: Display the end of a file.
+nano filename: Open a text editor to edit a file.
+
+----------------------SHORT------------------------------
+grep pattern filename: Searches for a specific pattern in a file and displays matching lines.
+
+cat filename: Displays the entire contents of a file in the terminal.
+
+head filename: Shows the beginning of a file, typically the first 10 lines (customizable).
+
+tail filename: Shows the end of a file, usually the last 10 lines (customizable).
+
+nano filename: Opens a user-friendly text editor (nano) to edit a file directly in the terminal.
+
+---------------------DETAIL-----------------------------
+
+grep pattern filename:
+
+Description: The grep command is used for searching text within files. It searches for a specified pattern (regular expression or simple string) within a file and displays lines that match the pattern.
+Usage:
+perl
+Copy code
+grep pattern filename
+Example:
+perl
+Copy code
+$ grep "error" logfile.txt
+Explanation: In the example, the grep command searches for the word "error" in the "logfile.txt" file and displays all lines containing that pattern.
+cat filename:
+
+Description: The cat command is used to display the entire contents of a file in the terminal. It's often used for quickly viewing the content of text files.
+Usage:
+bash
+Copy code
+cat filename
+Example:
+shell
+Copy code
+$ cat document.txt
+Explanation: Running cat document.txt will display the contents of the "document.txt" file on the terminal.
+head filename:
+
+Description: The head command is used to display the beginning (top) of a file. By default, it shows the first 10 lines of the file, but you can specify a different number of lines.
+Usage:
+bash
+Copy code
+head filename
+Example:
+shell
+Copy code
+$ head -n 20 longfile.txt
+Explanation: This command displays the first 20 lines of the "longfile.txt" file.
+tail filename:
+
+Description: The tail command is used to display the end (bottom) of a file. Like head, it also defaults to displaying the last 10 lines but can be customized.
+Usage:
+bash
+Copy code
+tail filename
+Example:
+shell
+Copy code
+$ tail -n 15 logfile.txt
+Explanation: This command shows the last 15 lines of the "logfile.txt" file.
+nano filename:
+
+Description: The nano command is a simple and user-friendly terminal text editor. It allows you to open and edit a file directly from the terminal.
+Usage:
+Copy code
+nano filename
+Example:
+javascript
+Copy code
+$ nano document.txt
+Explanation: Running nano document.txt will open the "document.txt" file in the nano text editor, allowing you to make edits and save them within the terminal.
+These file manipulation commands are fundamental for viewing, searching, and editing text files in a Unix-like environment. They are handy for tasks ranging from quick text file inspection to in-depth file manipulation and editing.
